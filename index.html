@@ -3,7 +3,7 @@
  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Hansika Keerthi - Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&amp;family=DM+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
@@ -27,9 +27,9 @@ section{padding:5rem 0}
 @keyframes drift{0%{transform:translate(0,0)}100%{transform:translate(-3%,-2%)}}
 .hero-name{font-size:clamp(2.2rem,6vw,4.5rem);font-weight:800;line-height:1.1;background:linear-gradient(135deg,#fff 0%,var(--accent) 50%,var(--accent2) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 .hero-tagline{font-size:clamp(1rem,2.5vw,1.4rem);color:rgba(232,230,240,.6);font-weight:300}
-.btn-accent{background:linear-gradient(135deg,var(--accent),#8b5cf6);color:#fff;border:0;padding:.7rem 2rem;border-radius:50px;font-weight:600;transition:transform .2s,box-shadow .2s}
+.btn-accent{background:linear-gradient(135deg,var(--accent),#8b5cf6);color:#fff;border:0;padding:.7rem 2rem;border-radius:50px;font-weight:600;transition:transform .2s,box-shadow .2s;text-decoration:none;display:inline-block}
 .btn-accent:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(108,92,231,.35);color:#fff}
-.btn-outline-accent{border:2px solid var(--accent);color:var(--accent);padding:.65rem 2rem;border-radius:50px;font-weight:600;background:transparent;transition:all .2s}
+.btn-outline-accent{border:2px solid var(--accent);color:var(--accent);padding:.65rem 2rem;border-radius:50px;font-weight:600;background:transparent;transition:all .2s;text-decoration:none;display:inline-block}
 .btn-outline-accent:hover{background:var(--accent);color:#fff}
 .section-title{font-size:2rem;font-weight:700;margin-bottom:.5rem}
 .section-title span{background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
@@ -37,585 +37,266 @@ section{padding:5rem 0}
 .card-dark{background:var(--surface);border:1px solid rgba(108,92,231,.1);border-radius:16px;transition:transform .3s,box-shadow .3s}
 .card-dark:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(108,92,231,.15)}
 .profile-img{width:200px;height:200px;border-radius:50%;object-fit:cover;border:4px solid var(--accent);background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-size:4rem;color:#fff;margin:0 auto}
-.table-dark-custom{--bs-table-bg:var(--surface);--bs-table-border-color:rgba(108,92,231,.15);--bs-table-hover-bg:rgba(108,92,231,.1);--bs-table-striped-bg:rgba(108,92,231,.05);color:var(--text)}
-.progress{height:10px;background:rgba(108,92,231,.1);border-radius:5px}
-.progress-bar{background:linear-gradient(135deg,var(--accent),var(--accent2));border-radius:5px}
-.badge-accent{background:linear-gradient(135deg,var(--accent),#8b5cf6);font-weight:500}
-.badge-teal{background:linear-gradient(135deg,var(--accent2),#00b894);font-weight:500}
-.form-control,.form-select{background:var(--surface);border:1px solid rgba(108,92,231,.2);color:var(--text);border-radius:10px}
-.form-control:focus,.form-select:focus{background:var(--surface);color:var(--text);border-color:var(--accent);box-shadow:0 0 0 .2rem rgba(108,92,231,.25)}
-.form-label{color:rgba(232,230,240,.7);font-weight:500;font-size:.9rem}
-.input-group-text{background:rgba(108,92,231,.15);border:1px solid rgba(108,92,231,.2);color:var(--accent)}
-.accordion-item{background:var(--surface);border:1px solid rgba(108,92,231,.1)}
-.accordion-button{background:var(--surface);color:var(--text);font-weight:600;font-family:'Sora',sans-serif}
-.accordion-button:not(.collapsed){background:rgba(108,92,231,.1);color:var(--accent)}
-.accordion-button::after{filter:brightness(0) invert(1)}
-.accordion-body{background:var(--surface);color:rgba(232,230,240,.7)}
-.modal-content{background:var(--surface);border:1px solid rgba(108,92,231,.2);color:var(--text)}
-.modal-header{border-bottom:1px solid rgba(108,92,231,.15)}
-.modal-footer{border-top:1px solid rgba(108,92,231,.15)}
-.btn-close{filter:invert(1)}
-.carousel-inner{border-radius:16px;overflow:hidden}
-.carousel-item{background:linear-gradient(135deg,rgba(108,92,231,.2),rgba(0,206,201,.1));padding:3rem 2rem;min-height:220px;display:flex!important;align-items:center;justify-content:center;text-align:center}
-.list-group-item-dark{background:var(--surface);color:var(--text);border-color:rgba(108,92,231,.1)}
-.list-group-item-dark.active{background:var(--accent);border-color:var(--accent)}
-.footer{background:var(--surface);border-top:1px solid rgba(108,92,231,.1);padding:2rem 0}
-.toast-container{position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999}
-.skill-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0}
-@media(max-width:768px){section{padding:3rem 0}.hero-section{padding:4rem 0 3rem}}
-</style>
+.progress{height:10px;background:rgba(108,92,231,.1);border-radius:10px}
+  </style>
   <style>body { box-sizing: border-box; }</style>
   <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js" type="text/javascript"></script>
   <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
   <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
  </head>
- <body>
-  <div class="app-wrap" id="appWrap"><!-- Navbar -->
-   <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-3">
-    <div class="container"><a class="navbar-brand fs-4" href="#home" id="navBrand">AM</a> <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"> <span class="navbar-toggler-icon"></span> </button>
-     <div class="collapse navbar-collapse" id="mainNav">
-      <ul class="navbar-nav ms-auto gap-1">
-       <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+ <body class="h-full">
+  <div class="app-wrap">
+   <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+     <div class="navbar-brand">
+      HK
+     </div><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> <span class="navbar-toggler-icon"></span> </button>
+     <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-       <li class="nav-item"><a class="nav-link" href="#qualifications">Qualifications</a></li>
-       <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Skills &amp; Certs</a>
-        <ul class="dropdown-menu">
-         <li><a class="dropdown-item" href="#skills"><i class="bi bi-gear me-2"></i>Skills</a></li>
-         <li><a class="dropdown-item" href="#certifications"><i class="bi bi-award me-2"></i>Certifications</a></li>
-        </ul></li>
+       <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+       <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+       <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
      </div>
     </div>
-   </nav><!-- Hero -->
-   <section class="hero-section" id="home">
-    <div class="container position-relative">
-     <div class="row align-items-center">
-      <div class="col-lg-7">
-       <p class="text-uppercase mb-2" style="color:var(--accent);letter-spacing:3px;font-size:.85rem;font-weight:600">Welcome to my portfolio</p>
-       <h1 class="hero-name mb-3" id="heroName">Alex Morgan</h1>
-       <p class="hero-tagline mb-4" id="heroTagline">Full-Stack Developer &amp; UI Designer</p>
-       <div class="d-flex gap-3 flex-wrap"><a href="#contact" class="btn btn-accent"><i class="bi bi-envelope me-2"></i>Get in Touch</a> <a href="#about" class="btn btn-outline-accent"><i class="bi bi-person me-2"></i>About Me</a>
-       </div>
-      </div>
-      <div class="col-lg-5 mt-5 mt-lg-0"><!-- Carousel -->
-       <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators"><button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button> <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button> <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
-        </div>
-        <div class="carousel-inner">
-         <div class="carousel-item active">
-          <div class="text-center"><i class="bi bi-code-slash" style="font-size:3rem;color:var(--accent)"></i>
-           <h4 class="mt-3 mb-2" style="font-family:'Sora'">Clean Code</h4>
-           <p class="mb-0" style="color:rgba(232,230,240,.6)">Writing elegant, maintainable solutions</p>
-          </div>
-         </div>
-         <div class="carousel-item">
-          <div class="text-center"><i class="bi bi-palette" style="font-size:3rem;color:var(--accent2)"></i>
-           <h4 class="mt-3 mb-2" style="font-family:'Sora'">Creative Design</h4>
-           <p class="mb-0" style="color:rgba(232,230,240,.6)">Crafting beautiful user experiences</p>
-          </div>
-         </div>
-         <div class="carousel-item">
-          <div class="text-center"><i class="bi bi-rocket-takeoff" style="font-size:3rem;color:#e17055"></i>
-           <h4 class="mt-3 mb-2" style="font-family:'Sora'">Fast Delivery</h4>
-           <p class="mb-0" style="color:rgba(232,230,240,.6)">Shipping quality products on time</p>
-          </div>
-         </div>
-        </div><button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button> <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
-       </div>
-      </div>
-     </div>
-    </div>
-   </section><!-- About -->
-   <section id="about" style="background:var(--surface)">
+   </nav>
+   <section class="hero-section">
     <div class="container">
-     <h2 class="section-title">About <span>Me</span></h2>
-     <div class="section-line"></div>
-     <div class="row g-4 align-items-center">
-      <div class="col-lg-4 text-center">
+     <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+       <h1 class="hero-name">Hansika Keerthi</h1>
+       <p class="hero-tagline">Web Developer</p>
+       <p style="color:rgba(232,230,240,.5);margin-top:1rem;font-size:1.1rem">Building web solutions with Python, Java, and JavaScript</p>
+       <div style="margin-top:2.5rem;display:flex;gap:1rem;flex-wrap:wrap"><a href="#contact" class="btn btn-accent">Contact Me</a> <a href="#projects" class="btn btn-outline-accent">My Projects</a>
+       </div>
+      </div>
+      <div class="col-lg-6">
        <div class="profile-img">
-        <i class="bi bi-person-fill"></i>
-       </div>
-      </div>
-      <div class="col-lg-8">
-       <div class="card-dark p-4">
-        <h4 style="font-family:'Sora';font-weight:600" id="aboutNameEl">Alex Morgan</h4>
-        <p class="mb-2" style="color:var(--accent);font-weight:500">Full-Stack Developer</p>
-        <p style="color:rgba(232,230,240,.65);line-height:1.8" id="aboutText">Passionate developer with 5+ years of experience building web applications. I specialize in React, Node.js, and cloud technologies. I love turning complex problems into simple, elegant solutions and am always eager to learn new technologies.</p>
-        <div class="row g-3 mt-2">
-         <div class="col-sm-6">
-          <p class="mb-1" style="color:rgba(232,230,240,.5)"><i class="bi bi-geo-alt me-2" style="color:var(--accent)"></i>San Francisco, CA</p>
-         </div>
-         <div class="col-sm-6">
-          <p class="mb-1" style="color:rgba(232,230,240,.5)"><i class="bi bi-envelope me-2" style="color:var(--accent)"></i><span id="aboutEmail">alex@example.com</span></p>
-         </div>
-         <div class="col-sm-6">
-          <p class="mb-1" style="color:rgba(232,230,240,.5)"><i class="bi bi-telephone me-2" style="color:var(--accent)"></i>+1 (555) 123-4567</p>
-         </div>
-         <div class="col-sm-6">
-          <p class="mb-1" style="color:rgba(232,230,240,.5)"><i class="bi bi-briefcase me-2" style="color:var(--accent)"></i>Open to opportunities</p>
-         </div>
-        </div>
+        👩‍💻
        </div>
       </div>
      </div>
     </div>
-   </section><!-- Qualifications -->
-   <section id="qualifications">
+   </section>
+   <section id="about" style="background:rgba(108,92,231,.03);border-top:1px solid rgba(108,92,231,.1);border-bottom:1px solid rgba(108,92,231,.1)">
     <div class="container">
-     <h2 class="section-title">My <span>Qualifications</span></h2>
-     <div class="section-line"></div><!-- Accordion for Education & Experience -->
-     <div class="accordion mb-4" id="qualAccordion">
-      <div class="accordion-item border-0 mb-2" style="border-radius:12px;overflow:hidden">
-       <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#eduCollapse"><i class="bi bi-mortarboard me-2"></i>Education</button></h2>
-       <div id="eduCollapse" class="accordion-collapse collapse show" data-bs-parent="#qualAccordion">
-        <div class="accordion-body p-0">
-         <div class="table-responsive">
-          <table class="table table-striped table-bordered table-hover table-dark-custom mb-0">
-           <thead>
-            <tr>
-             <th>Degree</th>
-             <th>Institution</th>
-             <th>Year</th>
-             <th>Grade</th>
-            </tr>
-           </thead>
-           <tbody>
-            <tr>
-             <td>M.S. Computer Science</td>
-             <td>Stanford University</td>
-             <td>2020</td>
-             <td><span class="badge badge-accent">3.9 GPA</span></td>
-            </tr>
-            <tr>
-             <td>B.S. Computer Science</td>
-             <td>UC Berkeley</td>
-             <td>2018</td>
-             <td><span class="badge badge-teal">3.8 GPA</span></td>
-            </tr>
-            <tr>
-             <td>High School Diploma</td>
-             <td>Lincoln High</td>
-             <td>2014</td>
-             <td><span class="badge bg-secondary">Honors</span></td>
-            </tr>
-           </tbody>
-          </table>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="accordion-item border-0 mb-2" style="border-radius:12px;overflow:hidden">
-       <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#expCollapse"><i class="bi bi-briefcase me-2"></i>Experience</button></h2>
-       <div id="expCollapse" class="accordion-collapse collapse" data-bs-parent="#qualAccordion">
-        <div class="accordion-body p-0">
-         <div class="table-responsive">
-          <table class="table table-striped table-bordered table-hover table-dark-custom mb-0">
-           <thead>
-            <tr>
-             <th>Role</th>
-             <th>Company</th>
-             <th>Duration</th>
-             <th>Status</th>
-            </tr>
-           </thead>
-           <tbody>
-            <tr>
-             <td>Senior Developer</td>
-             <td>TechCorp</td>
-             <td>2022–Present</td>
-             <td><span class="badge badge-accent">Current</span></td>
-            </tr>
-            <tr>
-             <td>Full-Stack Developer</td>
-             <td>WebStudio</td>
-             <td>2020–2022</td>
-             <td><span class="badge bg-secondary">Completed</span></td>
-            </tr>
-            <tr>
-             <td>Junior Developer</td>
-             <td>StartupXYZ</td>
-             <td>2018–2020</td>
-             <td><span class="badge bg-secondary">Completed</span></td>
-            </tr>
-           </tbody>
-          </table>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </section><!-- Skills -->
-   <section id="skills" style="background:var(--surface)">
-    <div class="container">
-     <h2 class="section-title">My <span>Skills</span></h2>
-     <div class="section-line"></div>
-     <div class="row g-4">
+     <div class="row g-5 align-items-center">
       <div class="col-lg-6">
-       <h5 class="mb-3" style="font-family:'Sora';font-weight:600"><i class="bi bi-code-slash me-2" style="color:var(--accent)"></i>Technical Skills</h5>
-       <div class="mb-3">
-        <div class="d-flex justify-content-between mb-1">
-         <span>JavaScript / TypeScript</span><span style="color:var(--accent)">95%</span>
+       <h2 class="section-title">About <span>Me</span></h2>
+       <div class="section-line"></div>
+       <p style="line-height:1.8;font-size:1.05rem;color:rgba(232,230,240,.8)">I'm a BTech IT student at Vasavi College of Engineering passionate about web development. Currently pursuing internship opportunities and expanding my technical skills through NPTEL courses and professional certifications.</p>
+       <p style="line-height:1.8;font-size:1.05rem;color:rgba(232,230,240,.8);margin-top:1.5rem">I'm enthusiastic about building web solutions using Python, Java, and JavaScript. I enjoy tackling challenging problems and continuously learning new technologies to enhance my development capabilities.</p>
+       <div style="margin-top:2.5rem;background:rgba(108,92,231,.05);padding:1.5rem;border-radius:12px;border-left:4px solid var(--accent)">
+        <p><strong>📧 Email:</strong> hansikakeerthi@gmail.com</p>
+        <p style="margin-top:.8rem"><strong>📱 Phone:</strong> 9123456780</p>
+        <p style="margin-top:.8rem"><strong>📍 Location:</strong> Hyderabad</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section id="skills">
+    <div class="container">
+     <h2 class="section-title">Technical <span>Skills</span></h2>
+     <div class="section-line"></div>
+     <div class="row g-4">
+      <div class="col-md-6">
+       <div style="margin-bottom:2.5rem">
+        <div style="display:flex;justify-content:space-between;margin-bottom:.7rem"><span style="font-weight:600">Python</span> <span style="color:var(--accent)">85%</span>
         </div>
         <div class="progress">
-         <div class="progress-bar" style="width:95%"></div>
+         <div class="progress-bar" style="width:85%;background:linear-gradient(135deg,var(--accent),var(--accent2))"></div>
         </div>
        </div>
-       <div class="mb-3">
-        <div class="d-flex justify-content-between mb-1">
-         <span>React / Next.js</span><span style="color:var(--accent)">90%</span>
+       <div style="margin-bottom:2.5rem">
+        <div style="display:flex;justify-content:space-between;margin-bottom:.7rem"><span style="font-weight:600">Java</span> <span style="color:var(--accent)">75%</span>
         </div>
         <div class="progress">
-         <div class="progress-bar" style="width:90%"></div>
+         <div class="progress-bar" style="width:75%;background:linear-gradient(135deg,var(--accent),var(--accent2))"></div>
         </div>
        </div>
-       <div class="mb-3">
-        <div class="d-flex justify-content-between mb-1">
-         <span>Node.js / Express</span><span style="color:var(--accent)">88%</span>
+       <div style="margin-bottom:2.5rem">
+        <div style="display:flex;justify-content:space-between;margin-bottom:.7rem"><span style="font-weight:600">C</span> <span style="color:var(--accent)">70%</span>
         </div>
         <div class="progress">
-         <div class="progress-bar" style="width:88%"></div>
-        </div>
-       </div>
-       <div class="mb-3">
-        <div class="d-flex justify-content-between mb-1">
-         <span>Python / Django</span><span style="color:var(--accent)">80%</span>
-        </div>
-        <div class="progress">
-         <div class="progress-bar" style="width:80%"></div>
-        </div>
-       </div>
-       <div class="mb-3">
-        <div class="d-flex justify-content-between mb-1">
-         <span>SQL / PostgreSQL</span><span style="color:var(--accent)">85%</span>
-        </div>
-        <div class="progress">
-         <div class="progress-bar" style="width:85%"></div>
+         <div class="progress-bar" style="width:70%;background:linear-gradient(135deg,var(--accent),var(--accent2))"></div>
         </div>
        </div>
       </div>
-      <div class="col-lg-6">
-       <h5 class="mb-3" style="font-family:'Sora';font-weight:600"><i class="bi bi-tools me-2" style="color:var(--accent2)"></i>Tools &amp; Frameworks</h5>
-       <div class="list-group">
-        <div class="list-group-item list-group-item-dark d-flex align-items-center gap-3 border-0 mb-2" style="border-radius:12px">
-         <div class="skill-icon" style="background:rgba(108,92,231,.15);color:var(--accent)">
-          <i class="bi bi-git"></i>
-         </div>
-         <div>
-          <strong>Git &amp; GitHub</strong><br><small style="color:rgba(232,230,240,.5)">Version control, CI/CD workflows</small>
-         </div>
+      <div class="col-md-6">
+       <div style="margin-bottom:2.5rem">
+        <div style="display:flex;justify-content:space-between;margin-bottom:.7rem"><span style="font-weight:600">JavaScript</span> <span style="color:var(--accent)">75%</span>
         </div>
-        <div class="list-group-item list-group-item-dark d-flex align-items-center gap-3 border-0 mb-2" style="border-radius:12px">
-         <div class="skill-icon" style="background:rgba(0,206,201,.15);color:var(--accent2)">
-          <i class="bi bi-cloud"></i>
-         </div>
-         <div>
-          <strong>AWS / Docker</strong><br><small style="color:rgba(232,230,240,.5)">Cloud deployment, containerization</small>
-         </div>
+        <div class="progress">
+         <div class="progress-bar" style="width:75%;background:linear-gradient(135deg,var(--accent),var(--accent2))"></div>
         </div>
-        <div class="list-group-item list-group-item-dark d-flex align-items-center gap-3 border-0 mb-2" style="border-radius:12px">
-         <div class="skill-icon" style="background:rgba(225,112,85,.15);color:#e17055">
-          <i class="bi bi-brush"></i>
-         </div>
-         <div>
-          <strong>Figma / Adobe XD</strong><br><small style="color:rgba(232,230,240,.5)">UI/UX design, prototyping</small>
-         </div>
+       </div>
+       <div style="margin-bottom:2.5rem">
+        <div style="display:flex;justify-content:space-between;margin-bottom:.7rem"><span style="font-weight:600">HTML</span> <span style="color:var(--accent)">70%</span>
         </div>
-        <div class="list-group-item list-group-item-dark d-flex align-items-center gap-3 border-0 mb-2" style="border-radius:12px">
-         <div class="skill-icon" style="background:rgba(108,92,231,.15);color:var(--accent)">
-          <i class="bi bi-database"></i>
-         </div>
-         <div>
-          <strong>MongoDB / Redis</strong><br><small style="color:rgba(232,230,240,.5)">NoSQL databases, caching</small>
-         </div>
+        <div class="progress">
+         <div class="progress-bar" style="width:70%;background:linear-gradient(135deg,var(--accent),var(--accent2))"></div>
+        </div>
+       </div>
+       <div style="margin-bottom:2.5rem">
+        <div style="display:flex;justify-content:space-between;margin-bottom:.7rem"><span style="font-weight:600">CSS</span> <span style="color:var(--accent)">65%</span>
+        </div>
+        <div class="progress">
+         <div class="progress-bar" style="width:65%;background:linear-gradient(135deg,var(--accent),var(--accent2))"></div>
         </div>
        </div>
       </div>
      </div>
     </div>
-   </section><!-- Certifications -->
-   <section id="certifications">
+   </section>
+   <section id="projects" style="background:rgba(108,92,231,.03);border-top:1px solid rgba(108,92,231,.1);border-bottom:1px solid rgba(108,92,231,.1)">
     <div class="container">
-     <h2 class="section-title">My <span>Certifications</span></h2>
+     <h2 class="section-title">My <span>Projects</span></h2>
      <div class="section-line"></div>
      <div class="row g-4">
       <div class="col-md-6 col-lg-4">
-       <div class="card-dark p-4 h-100">
-        <div class="d-flex justify-content-between align-items-start mb-3"><i class="bi bi-amazon" style="font-size:2rem;color:#ff9900"></i> <span class="badge badge-accent">2023</span>
-        </div>
-        <h5 style="font-family:'Sora';font-weight:600">AWS Solutions Architect</h5>
-        <p style="color:rgba(232,230,240,.5);font-size:.9rem">Amazon Web Services – Professional level cloud architecture certification.</p><button class="btn btn-outline-accent btn-sm" data-bs-toggle="modal" data-bs-target="#certModal" onclick="showCert('AWS Solutions Architect','Validates expertise in designing distributed systems on AWS.')"><i class="bi bi-eye me-1"></i>View Details</button>
-       </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-       <div class="card-dark p-4 h-100">
-        <div class="d-flex justify-content-between align-items-start mb-3"><i class="bi bi-google" style="font-size:2rem;color:#4285f4"></i> <span class="badge badge-teal">2022</span>
-        </div>
-        <h5 style="font-family:'Sora';font-weight:600">Google Cloud Professional</h5>
-        <p style="color:rgba(232,230,240,.5);font-size:.9rem">Google Cloud – Professional cloud developer certification.</p><button class="btn btn-outline-accent btn-sm" data-bs-toggle="modal" data-bs-target="#certModal" onclick="showCert('Google Cloud Professional','Demonstrates ability to build scalable applications on GCP.')"><i class="bi bi-eye me-1"></i>View Details</button>
-       </div>
-      </div>
-      <div class="col-md-6 col-lg-4">
-       <div class="card-dark p-4 h-100">
-        <div class="d-flex justify-content-between align-items-start mb-3"><i class="bi bi-meta" style="font-size:2rem;color:var(--accent)"></i> <span class="badge bg-secondary">2021</span>
-        </div>
-        <h5 style="font-family:'Sora';font-weight:600">Meta Front-End Developer</h5>
-        <p style="color:rgba(232,230,240,.5);font-size:.9rem">Meta – Professional certificate in front-end development with React.</p><button class="btn btn-outline-accent btn-sm" data-bs-toggle="modal" data-bs-target="#certModal" onclick="showCert('Meta Front-End Developer','Covers React, testing, and responsive web design.')"><i class="bi bi-eye me-1"></i>View Details</button>
-       </div>
-      </div>
-     </div>
-    </div>
-   </section><!-- Cert Modal -->
-   <div class="modal fade" id="certModal" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-     <div class="modal-content" style="border-radius:16px">
-      <div class="modal-header">
-       <h5 class="modal-title" id="certModalTitle" style="font-family:'Sora'">Certificate</h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-       <div class="text-center mb-3">
-        <i class="bi bi-award" style="font-size:4rem;color:var(--accent)"></i>
-       </div>
-       <p id="certModalBody" style="color:rgba(232,230,240,.7);text-align:center"></p>
-       <div class="text-center">
-        <span class="badge badge-accent px-3 py-2">Verified Credential</span>
-       </div>
-      </div>
-      <div class="modal-footer">
-       <button type="button" class="btn btn-accent btn-sm" data-bs-dismiss="modal">Close</button>
-      </div>
-     </div>
-    </div>
-   </div><!-- Contact -->
-   <section id="contact" style="background:var(--surface)">
-    <div class="container">
-     <h2 class="section-title">Get In <span>Touch</span></h2>
-     <div class="section-line"></div>
-     <div class="row g-4">
-      <div class="col-lg-8">
        <div class="card-dark p-4">
-        <form id="contactForm" novalidate>
-         <div class="row g-3">
-          <div class="col-md-6"><label class="form-label" for="fname">First Name *</label>
-           <div class="input-group"><span class="input-group-text"><i class="bi bi-person"></i></span> <input type="text" class="form-control" id="fname" required placeholder="Alex">
-           </div>
-           <div class="invalid-feedback" id="fnameErr">
-            Please enter your first name.
-           </div>
-          </div>
-          <div class="col-md-6"><label class="form-label" for="lname">Last Name *</label>
-           <div class="input-group"><span class="input-group-text"><i class="bi bi-person"></i></span> <input type="text" class="form-control" id="lname" required placeholder="Morgan">
-           </div>
-           <div class="invalid-feedback" id="lnameErr">
-            Please enter your last name.
-           </div>
-          </div>
-          <div class="col-md-6"><label class="form-label" for="email">Email *</label>
-           <div class="input-group"><span class="input-group-text"><i class="bi bi-envelope"></i></span> <input type="email" class="form-control" id="email" required placeholder="alex@example.com">
-           </div>
-           <div class="invalid-feedback" id="emailErr">
-            Please enter a valid email.
-           </div>
-          </div>
-          <div class="col-md-6"><label class="form-label" for="phone">Phone *</label>
-           <div class="input-group"><span class="input-group-text"><i class="bi bi-telephone"></i></span> <input type="tel" class="form-control" id="phone" required placeholder="5551234567">
-           </div>
-           <div class="invalid-feedback" id="phoneErr">
-            Enter a valid 10-digit number.
-           </div>
-          </div>
-          <div class="col-12"><label class="form-label" for="subject">Subject</label> <select class="form-select" id="subject"> <option selected>Choose a topic...</option> <option>Job Opportunity</option> <option>Project Collaboration</option> <option>General Inquiry</option> </select>
-          </div>
-          <div class="col-12"><label class="form-label" for="message">Message *</label> <textarea class="form-control" id="message" rows="4" required placeholder="Your message..."></textarea>
-           <div class="invalid-feedback" id="messageErr">
-            Please enter a message.
-           </div>
-          </div>
-          <div class="col-12"><button type="submit" class="btn btn-accent w-100"><i class="bi bi-send me-2"></i>Send Message</button>
-          </div>
-         </div>
-        </form>
+        <h5 style="color:var(--accent);margin-bottom:1rem">🔬 Antibiotic Surveillance</h5>
+        <p style="color:rgba(232,230,240,.7);line-height:1.6">A system designed to track and monitor antibiotic usage and resistance patterns for healthcare management.</p>
+        <div style="margin-top:1.5rem"><span style="display:inline-block;background:rgba(108,92,231,.2);color:var(--accent);padding:.3rem .8rem;border-radius:20px;font-size:.85rem;margin-right:.5rem;margin-bottom:.5rem">Python</span> <span style="display:inline-block;background:rgba(108,92,231,.2);color:var(--accent);padding:.3rem .8rem;border-radius:20px;font-size:.85rem">Database</span>
+        </div>
        </div>
       </div>
-      <div class="col-lg-4">
-       <div class="card-dark p-4 h-100 d-flex flex-column gap-4">
-        <div>
-         <i class="bi bi-envelope-fill mb-2 d-block" style="font-size:1.5rem;color:var(--accent)"></i>
-         <h6 style="font-family:'Sora'">Email</h6>
-         <p style="color:rgba(232,230,240,.5);font-size:.9rem" id="contactEmailDisplay">alex@example.com</p>
+      <div class="col-md-6 col-lg-4">
+       <div class="card-dark p-4">
+        <h5 style="color:var(--accent);margin-bottom:1rem">🌍 Carbon Track Mines</h5>
+        <p style="color:rgba(232,230,240,.7);line-height:1.6">An application to track and analyze carbon emissions in mining operations for environmental monitoring.</p>
+        <div style="margin-top:1.5rem"><span style="display:inline-block;background:rgba(108,92,231,.2);color:var(--accent);padding:.3rem .8rem;border-radius:20px;font-size:.85rem;margin-right:.5rem;margin-bottom:.5rem">JavaScript</span> <span style="display:inline-block;background:rgba(108,92,231,.2);color:var(--accent);padding:.3rem .8rem;border-radius:20px;font-size:.85rem">Web</span>
         </div>
-        <div>
-         <i class="bi bi-geo-alt-fill mb-2 d-block" style="font-size:1.5rem;color:var(--accent2)"></i>
-         <h6 style="font-family:'Sora'">Location</h6>
-         <p style="color:rgba(232,230,240,.5);font-size:.9rem">San Francisco, CA</p>
+       </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+       <div class="card-dark p-4">
+        <h5 style="color:var(--accent);margin-bottom:1rem">⌨️ Typing Speed Tester</h5>
+        <p style="color:rgba(232,230,240,.7);line-height:1.6">An interactive web application to measure typing speed and accuracy with real-time performance metrics.</p>
+        <div style="margin-top:1.5rem"><span style="display:inline-block;background:rgba(108,92,231,.2);color:var(--accent);padding:.3rem .8rem;border-radius:20px;font-size:.85rem;margin-right:.5rem;margin-bottom:.5rem">JavaScript</span> <span style="display:inline-block;background:rgba(108,92,231,.2);color:var(--accent);padding:.3rem .8rem;border-radius:20px;font-size:.85rem">HTML/CSS</span>
         </div>
-        <div>
-         <i class="bi bi-clock-fill mb-2 d-block" style="font-size:1.5rem;color:#e17055"></i>
-         <h6 style="font-family:'Sora'">Availability</h6>
-         <p style="color:rgba(232,230,240,.5);font-size:.9rem">Mon–Fri, 9am–6pm PST</p>
+       </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+       <div class="card-dark p-4">
+        <h5 style="color:var(--accent);margin-bottom:1rem">🔍 Lost &amp; Found System</h5>
+        <p style="color:rgba(232,230,240,.7);line-height:1.6">A platform to report and track lost items, connecting people with found belongings through database system.</p>
+        <div style="margin-top:1.5rem"><span style="display:inline-block;background:rgba(108,92,231,.2);color:var(--accent);padding:.3rem .8rem;border-radius:20px;font-size:.85rem;margin-right:.5rem;margin-bottom:.5rem">Java</span> <span style="display:inline-block;background:rgba(108,92,231,.2);color:var(--accent);padding:.3rem .8rem;border-radius:20px;font-size:.85rem">Database</span>
+        </div>
+       </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+       <div class="card-dark p-4">
+        <h5 style="color:var(--accent);margin-bottom:1rem">🚨 Disaster Relief System</h5>
+        <p style="color:rgba(232,230,240,.7);line-height:1.6">A comprehensive system for coordinating disaster relief efforts, managing resources and volunteer information.</p>
+        <div style="margin-top:1.5rem"><span style="display:inline-block;background:rgba(108,92,231,.2);color:var(--accent);padding:.3rem .8rem;border-radius:20px;font-size:.85rem;margin-right:.5rem;margin-bottom:.5rem">Python</span> <span style="display:inline-block;background:rgba(108,92,231,.2);color:var(--accent);padding:.3rem .8rem;border-radius:20px;font-size:.85rem">Web</span>
         </div>
        </div>
       </div>
      </div>
     </div>
-   </section><!-- Footer -->
-   <footer class="footer text-center">
+   </section>
+   <section id="education">
     <div class="container">
-     <div class="d-flex justify-content-center gap-3 mb-3"><a href="#" class="text-decoration-none" style="color:var(--accent);font-size:1.3rem"><i class="bi bi-github"></i></a> <a href="#" class="text-decoration-none" style="color:var(--accent);font-size:1.3rem"><i class="bi bi-linkedin"></i></a> <a href="#" class="text-decoration-none" style="color:var(--accent);font-size:1.3rem"><i class="bi bi-twitter-x"></i></a>
+     <h2 class="section-title">My <span>Education</span></h2>
+     <div class="section-line"></div>
+     <div class="row g-4">
+      <div class="col-md-4">
+       <div class="card-dark p-4">
+        <h5 style="color:var(--accent);margin-bottom:.5rem">🎓 B.Tech IT</h5>
+        <p style="font-size:.9rem;color:rgba(232,230,240,.6);margin-bottom:1rem">Vasavi College of Engineering</p>
+        <p style="font-size:.85rem;color:rgba(232,230,240,.5)">2024 - 2028</p>
+        <p style="color:rgba(232,230,240,.7);margin-top:1rem"><strong>CGPA:</strong> 8.5/10</p>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="card-dark p-4">
+        <h5 style="color:var(--accent);margin-bottom:.5rem">📚 Intermediate</h5>
+        <p style="font-size:.9rem;color:rgba(232,230,240,.6);margin-bottom:1rem">Narayana Jr College</p>
+        <p style="font-size:.85rem;color:rgba(232,230,240,.5)">2022 - 2024</p>
+        <p style="color:rgba(232,230,240,.7);margin-top:1rem"><strong>Score:</strong> 98%</p>
+       </div>
+      </div>
+      <div class="col-md-4">
+       <div class="card-dark p-4">
+        <h5 style="color:var(--accent);margin-bottom:.5rem">🏫 School</h5>
+        <p style="font-size:.9rem;color:rgba(232,230,240,.6);margin-bottom:1rem">Montessori High School</p>
+        <p style="font-size:.85rem;color:rgba(232,230,240,.5)">2022</p>
+        <p style="color:rgba(232,230,240,.7);margin-top:1rem"><strong>Score:</strong> 100%</p>
+       </div>
+      </div>
      </div>
-     <p style="color:rgba(232,230,240,.4);font-size:.85rem" id="footerText">© 2024 Alex Morgan. All rights reserved.</p>
+    </div>
+   </section>
+   <section style="background:rgba(108,92,231,.03);border-top:1px solid rgba(108,92,231,.1);border-bottom:1px solid rgba(108,92,231,.1)">
+    <div class="container">
+     <h2 class="section-title">Experience &amp; <span>Certifications</span></h2>
+     <div class="section-line"></div>
+     <div class="row g-4">
+      <div class="col-md-6">
+       <div class="card-dark p-4">
+        <h5 style="color:var(--accent);margin-bottom:1rem">💼 Current Internship</h5>
+        <p style="font-size:.9rem;color:rgba(232,230,240,.6)">Python NPTEL Internship</p>
+        <ul style="color:rgba(232,230,240,.7);margin-top:1.5rem;padding-left:1.5rem;line-height:1.8">
+         <li>Gaining practical experience in Python development</li>
+         <li>Learning industry-standard practices and frameworks</li>
+         <li>Building real-world applications and problem-solving skills</li>
+        </ul>
+       </div>
+      </div>
+      <div class="col-md-6">
+       <div class="card-dark p-4">
+        <h5 style="color:var(--accent);margin-bottom:1.5rem">🏆 Certifications</h5>
+        <div style="border-bottom:1px solid rgba(108,92,231,.1);padding-bottom:1.2rem;margin-bottom:1.2rem">
+         <p style="color:rgba(232,230,240,.8);margin:0"><strong>NPTEL Data Structures Through Python</strong></p>
+         <p style="font-size:.85rem;color:rgba(232,230,240,.5);margin-top:.3rem">Online course completion</p>
+        </div>
+        <div>
+         <p style="color:rgba(232,230,240,.8);margin:0"><strong>Cisco Python Certificate</strong></p>
+         <p style="font-size:.85rem;color:rgba(232,230,240,.5);margin-top:.3rem">Professional certification</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section id="contact">
+    <div class="container">
+     <div style="text-align:center">
+      <h2 class="section-title">Get <span>In Touch</span></h2>
+      <div class="section-line" style="margin-left:auto;margin-right:auto"></div>
+      <p style="font-size:1.1rem;color:rgba(232,230,240,.8);margin-bottom:2.5rem;max-width:600px;margin-left:auto;margin-right:auto">I'm always interested in hearing about new projects and opportunities. Feel free to reach out!</p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap"><a href="mailto:hansikakeerthi@gmail.com" class="btn btn-accent">Send Email</a>
+      </div>
+      <div style="margin-top:3rem;background:rgba(108,92,231,.05);padding:2rem;border-radius:16px;border:1px solid rgba(108,92,231,.1)">
+       <p style="color:rgba(232,230,240,.8);margin-bottom:1rem">📧 <strong style="color:#fff">hansikakeerthi@gmail.com</strong></p>
+       <p style="color:rgba(232,230,240,.8);margin-bottom:1rem">📱 <strong style="color:#fff">9123456780</strong></p>
+       <p style="color:rgba(232,230,240,.8)">📍 <strong style="color:#fff">Hyderabad</strong></p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <footer style="background:rgba(0,0,0,.3);border-top:1px solid rgba(108,92,231,.1);padding:2rem 0;text-align:center;color:rgba(232,230,240,.5);font-size:.9rem">
+    <div class="container">
+     <p>© 2024 Hansika Keerthi. All rights reserved.</p>
     </div>
    </footer>
-  </div><!-- end app-wrap --> <!-- Toast for form success -->
-  <div class="toast-container">
-   <div class="toast align-items-center border-0" id="successToast" role="alert" style="background:var(--surface);border:1px solid rgba(108,92,231,.2)!important;border-radius:12px">
-    <div class="d-flex">
-     <div class="toast-body d-flex align-items-center gap-2">
-      <i class="bi bi-check-circle-fill" style="color:var(--accent2);font-size:1.2rem"></i><span>Message sent successfully!</span>
-     </div><button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"></button>
-    </div>
-   </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-// Cert modal
-function showCert(title, body) {
-  document.getElementById('certModalTitle').textContent = title;
-  document.getElementById('certModalBody').textContent = body;
-}
-
-// Active nav highlighting on scroll
-const sections = document.querySelectorAll('section');
-const navLinks = document.querySelectorAll('.nav-link:not(.dropdown-toggle)');
-const appWrap = document.getElementById('appWrap');
-
-appWrap.addEventListener('scroll', () => {
-  let current = '';
-  sections.forEach(s => {
-    if (appWrap.scrollTop >= s.offsetTop - 100) current = s.getAttribute('id');
-  });
-  navLinks.forEach(l => {
-    l.classList.remove('active');
-    if (l.getAttribute('href') === '#' + current) l.classList.add('active');
-  });
-});
-
-// Smooth scroll for nav links
-document.querySelectorAll('a[href^="#"]').forEach(a => {
-  a.addEventListener('click', e => {
-    e.preventDefault();
-    const target = document.querySelector(a.getAttribute('href'));
-    if (target) {
-      appWrap.scrollTo({ top: target.offsetTop - 70, behavior: 'smooth' });
-      // Close mobile nav
-      const collapse = document.getElementById('mainNav');
-      if (collapse.classList.contains('show')) {
-        bootstrap.Collapse.getInstance(collapse)?.hide();
-      }
-    }
-  });
-});
-
-// Form validation
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  let valid = true;
-  const fields = [
-    { el: document.getElementById('fname'), err: document.getElementById('fnameErr'), check: v => v.trim().length > 0, msg: 'Please enter your first name.' },
-    { el: document.getElementById('lname'), err: document.getElementById('lnameErr'), check: v => v.trim().length > 0, msg: 'Please enter your last name.' },
-    { el: document.getElementById('email'), err: document.getElementById('emailErr'), check: v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v), msg: 'Please enter a valid email.' },
-    { el: document.getElementById('phone'), err: document.getElementById('phoneErr'), check: v => /^\d{10}$/.test(v.replace(/\D/g,'')), msg: 'Enter a valid 10-digit number.' },
-    { el: document.getElementById('message'), err: document.getElementById('messageErr'), check: v => v.trim().length > 0, msg: 'Please enter a message.' }
-  ];
-  fields.forEach(f => {
-    if (!f.check(f.el.value)) {
-      f.el.classList.add('is-invalid');
-      f.err.textContent = f.msg;
-      valid = false;
-    } else {
-      f.el.classList.remove('is-invalid');
-    }
-  });
-  if (valid) {
-    const toast = new bootstrap.Toast(document.getElementById('successToast'));
-    toast.show();
-    this.reset();
-  }
-});
-
-// Element SDK
-const defaultConfig = {
-  hero_name: 'Alex Morgan',
-  hero_tagline: 'Full-Stack Developer & UI Designer',
-  about_text: 'Passionate developer with 5+ years of experience building web applications. I specialize in React, Node.js, and cloud technologies. I love turning complex problems into simple, elegant solutions and am always eager to learn new technologies.',
-  contact_email: 'alex@example.com',
-  background_color: '#0a0a0f',
-  surface_color: '#16161e',
-  text_color: '#e8e6f0',
-  accent_color: '#6c5ce7',
-  accent2_color: '#00cec9',
-  font_family: 'Sora',
-  font_size: 16
-};
-
-function applyConfig(config) {
-  const c = { ...defaultConfig, ...config };
-  document.getElementById('heroName').textContent = c.hero_name;
-  document.getElementById('heroTagline').textContent = c.hero_tagline;
-  document.getElementById('aboutText').textContent = c.about_text;
-  document.getElementById('aboutNameEl').textContent = c.hero_name;
-  document.getElementById('aboutEmail').textContent = c.contact_email;
-  document.getElementById('contactEmailDisplay').textContent = c.contact_email;
-  document.getElementById('navBrand').textContent = c.hero_name.split(' ').map(w=>w[0]).join('');
-  document.getElementById('footerText').textContent = `© 2024 ${c.hero_name}. All rights reserved.`;
-
-  const root = document.documentElement.style;
-  root.setProperty('--bg', c.background_color);
-  root.setProperty('--surface', c.surface_color);
-  root.setProperty('--text', c.text_color);
-  root.setProperty('--accent', c.accent_color);
-  root.setProperty('--accent2', c.accent2_color);
-  document.body.style.color = c.text_color;
-
-  const fontStack = `${c.font_family}, DM Sans, sans-serif`;
-  document.querySelectorAll('h1,h2,h3,h4,h5,h6,.nav-link,.navbar-brand,.accordion-button').forEach(el => el.style.fontFamily = fontStack);
-  document.body.style.fontFamily = `DM Sans, ${c.font_family}, sans-serif`;
-
-  const base = c.font_size;
-  document.body.style.fontSize = base + 'px';
-}
-
-if (window.elementSdk) {
-  window.elementSdk.init({
-    defaultConfig,
-    onConfigChange: async (config) => applyConfig(config),
-    mapToCapabilities: (config) => {
-      const c = { ...defaultConfig, ...config };
-      function mut(key) {
-        return {
-          get: () => c[key] || defaultConfig[key],
-          set: (v) => { c[key] = v; window.elementSdk.setConfig({ [key]: v }); }
-        };
-      }
-      return {
-        recolorables: [mut('background_color'), mut('surface_color'), mut('text_color'), mut('accent_color'), mut('accent2_color')],
+    window.elementSdk.init({
+      defaultConfig: {},
+      onConfigChange: async (config) => {},
+      mapToCapabilities: (config) => ({
+        recolorables: [],
         borderables: [],
-        fontEditable: mut('font_family'),
-        fontSizeable: mut('font_size')
-      };
-    },
-    mapToEditPanelValues: (config) => {
-      const c = { ...defaultConfig, ...config };
-      return new Map([
-        ['hero_name', c.hero_name],
-        ['hero_tagline', c.hero_tagline],
-        ['about_text', c.about_text],
-        ['contact_email', c.contact_email]
-      ]);
-    }
-  });
-}
-</script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e5ce508e06af3d0',t:'MTc3NTEwMjA5Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
-</html>
+        fontEditable: undefined,
+        fontSizeable: undefined
+      }),
+      mapToEditPanelValues: (config) => new Map()
+    });
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e5dd53e43f4fcad',t:'MTc3NTExMTkzMS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.lef
